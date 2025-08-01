@@ -1,0 +1,136 @@
+@font-face {
+  font-family: OpenSans;
+  font-display: swap;
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  font-display: swap;
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  font-display: swap;
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+/*-------------------------------------------------------------------------------------------------------------------------
+EXTRA
+--------------------------------------------------------------------------------------------------------------------------*/
+.weblegko-container {
+  margin-inline: auto;
+  max-inline-size: 1280px;
+  padding-inline: 15px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------
+CALLORIE SLIDER
+--------------------------------------------------------------------------------------------------------------------------*/
+.calorie-slider {
+  --font-main: "OpenSans", sans-serif;
+  --font-title: "OpenSans", sans-serif;
+  --text: rgb(28, 30, 32);
+  min-inline-size: 280px;
+  max-inline-size: 1280px;
+  font-family: var(--font-main);
+  margin-inline: auto;
+  /* ------------------------------------------------------------------------------------------------------------------------------
+  RESET
+  --------------------------------------------------------------------------------------------------------------------------------*/
+  /* ------------------------------------------------------------------------------------------------------------------------------
+  MAIN STYLES
+  --------------------------------------------------------------------------------------------------------------------------------*/
+}
+.calorie-slider * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.calorie-slider *, .calorie-slider *::before, .calorie-slider *::after {
+  box-sizing: border-box;
+}
+.calorie-slider *:focus, .calorie-slider *:active {
+  outline: none;
+}
+.calorie-slider nav,
+.calorie-slider footer,
+.calorie-slider header,
+.calorie-slider aside {
+  display: block;
+}
+.calorie-slider html,
+.calorie-slider body {
+  inline-size: 100%;
+  block-size: 100%;
+}
+.calorie-slider body {
+  overscroll-behavior: none;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.calorie-slider input,
+.calorie-slider button,
+.calorie-slider textarea {
+  font-family: inherit;
+}
+.calorie-slider input::-ms-clear {
+  display: none;
+}
+.calorie-slider input[type=number] {
+  appearance: textfield;
+}
+.calorie-slider input[type=number]::-webkit-outer-spin-button, .calorie-slider input[type=number]::-webkit-inner-spin-button {
+  appearance: none;
+}
+.calorie-slider button {
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+}
+.calorie-slider button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.calorie-slider a {
+  user-select: none;
+  text-decoration: none;
+}
+.calorie-slider a:hover {
+  text-decoration: none;
+}
+.calorie-slider a:focus, .calorie-slider a:active {
+  outline: none;
+}
+.calorie-slider a:visited {
+  text-decoration: none;
+}
+.calorie-slider ul,
+.calorie-slider li {
+  list-style: none;
+}
+.calorie-slider img {
+  vertical-align: top;
+}
+.calorie-slider h1,
+.calorie-slider h2,
+.calorie-slider h3,
+.calorie-slider h4,
+.calorie-slider h5,
+.calorie-slider h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+.calorie-slider sup {
+  color: inherit;
+}
+/*# sourceMappingURL=main.min.css.map */

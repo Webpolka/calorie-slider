@@ -1,0 +1,144 @@
+/*-------------------------------------------------------------------------------------------------------------------------
+EXTRA
+--------------------------------------------------------------------------------------------------------------------------*/
+.weblegko-container {
+	margin-inline: auto;
+	max-inline-size: 1280px;
+	padding-inline: 15px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------
+CALLORIE SLIDER
+--------------------------------------------------------------------------------------------------------------------------*/
+.calorie-slider {
+	--font-main: "OpenSans", sans-serif;
+	--font-title: "OpenSans", sans-serif;
+
+	--text: rgb(28, 30, 32);	
+
+	min-inline-size: 280px;
+	max-inline-size: 1280px;
+
+	font-family: var(--font-main);
+	margin-inline: auto;
+
+	/* ------------------------------------------------------------------------------------------------------------------------------
+RESET
+--------------------------------------------------------------------------------------------------------------------------------*/
+	* {
+		margin: 0;
+		border: 0;
+		padding: 0;
+		-webkit-tap-highlight-color: transparent;
+
+		&,
+		&::before,
+		&::after {
+			box-sizing: border-box;
+		}
+
+		&:focus,
+		&:active {
+			outline: none;
+		}
+	}
+
+	nav,
+	footer,
+	header,
+	aside {
+		display: block;
+	}
+
+	html,
+	body {
+		inline-size: 100%;
+		block-size: 100%;
+	}
+
+	body {
+		overscroll-behavior: none;
+		text-rendering: optimizelegibility;
+		text-size-adjust: 100%;
+		font-size: rem(16);
+		font-weight: 400;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	input,
+	button,
+	textarea {
+		font-family: inherit;
+	}
+
+	input::-ms-clear {
+		display: none;
+	}
+
+	input[type="number"] {
+		appearance: textfield;
+
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			appearance: none;
+		}
+	}
+
+	button {
+		cursor: pointer;
+		user-select: none;
+		background-color: transparent;
+
+		&::-moz-focus-inner {
+			border: 0;
+			padding: 0;
+		}
+	}
+
+	a {
+		user-select: none;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:focus,
+		&:active {
+			outline: none;
+		}
+
+		&:visited {
+			text-decoration: none;
+		}
+	}
+
+	ul,
+	li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: inherit;
+		font-weight: 400;
+	}
+
+	sup {
+		color: inherit;
+	}
+
+	/* ------------------------------------------------------------------------------------------------------------------------------
+MAIN STYLES
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+}
